@@ -49,13 +49,13 @@ This project is an **AI-Powered Anemia Detection System** designed to help indiv
 ## Screenshots 📸
 
 ### Home Page  
-![Home Page](![Image](https://github.com/user-attachments/assets/c6fcd4c5-66a4-401d-9824-45c8809e957d))
+![Home Page](https://github.com/user-attachments/assets/c6fcd4c5-66a4-401d-9824-45c8809e957d)
 
 ### Admin Panel  
-![Admin Panel](![Image](https://github.com/user-attachments/assets/f90896da-6b1a-4449-b5f4-6ed4aeaf6d53))
+![Admin Panel](https://github.com/user-attachments/assets/f90896da-6b1a-4449-b5f4-6ed4aeaf6d53)
 
 ### Symptom Checker  
-![Symptom Checker]([Image](https://github.com/user-attachments/assets/9b45e96a-5579-43df-921b-5d7ffcc2bac0))
+![Symptom Checker](https://github.com/user-attachments/assets/9b45e96a-5579-43df-921b-5d7ffcc2bac0)
 
 ---
 
