@@ -55,7 +55,7 @@ This project is an **AI-Powered Anemia Detection System** designed to help indiv
 ![Admin Panel](https://via.placeholder.com/800x400?text=Admin+Panel)
 
 ### Symptom Checker  
-![Symptom Checker](https://via.placeholder.com/800x400?text=Symptom+Checker)
+![Symptom Checker](![Image](https://github.com/user-attachments/assets/9b45e96a-5579-43df-921b-5d7ffcc2bac0))
 
 ---
 
