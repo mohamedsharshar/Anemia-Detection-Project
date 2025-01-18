@@ -1,7 +1,15 @@
-<h2 align="left">
-  Hi 👋! My name is Mohamed Sharshar<br> and I'm a FullStack Developer
-  <img align="right" height="150" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXMwZnlncjN6aGZnN3h4ZnNicHc0Y3dwaXM1dDB4MmE4eDZmc3FjaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bGgsc5mWoryfgKBx1u/giphy.gif" />
-</h2>
+
+<table style="width:100%; border:0; border-collapse:collapse;">
+  <tr>
+    <td>
+      <h2>Hi 👋! My name is Mohamed Sharshar<br> and I'm a FullStack Developer</h2>
+    </td>
+    <td style="text-align:right;">
+      <img height="150" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXMwZnlncjN6aGZnN3h4ZnNicHc0Y3dwaXM1dDB4MmE4eDZmc3FjaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bGgsc5mWoryfgKBx1u/giphy.gif" />
+    </td>
+  </tr>
+</table>
+
 ---
 
 ## About the Project 🚀
