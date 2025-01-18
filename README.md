@@ -1,6 +1,6 @@
 <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
   <div style="text-align: left;">
-    <h2>Hi 👋! My name is Mohamed Sharshar<br> and I'm a FullStack Developer</h2>
+    <h2>Hi 👋! My name is Mohamed Sharshar and I'm a FullStack Developer</h2>
   </div>
   <div style="flex-shrink: 0;">
     <img height="150" style="max-width: 100%;" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXMwZnlncjN6aGZnN3h4ZnNicHc0Y3dwaXM1dDB4MmE4eDZmc3FjaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bGgsc5mWoryfgKBx1u/giphy.gif" />
