@@ -1,8 +1,6 @@
 <h2 align="left">Hi 👋! My name is Mohamed Sharshar<br> and I'm a FullStack Developer</h2>
 
-###
-
-<img align="right" height="150" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXMwZnlncjN6aGZnN3h4ZnNicHc0Y3dwaXM1dDB4MmE4eDZmc3FjaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bGgsc5mWoryfgKBx1u/giphy.gif"  />
+###<img align="right" height="150" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXMwZnlncjN6aGZnN3h4ZnNicHc0Y3dwaXM1dDB4MmE4eDZmc3FjaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bGgsc5mWoryfgKBx1u/giphy.gif"/>
 
 ---
 
@@ -68,20 +66,34 @@ To get a local copy of this project up and running, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/project-name.git
+   ```
 2. Navigate to the project directory:
-cd project-name
-
+   ```bash
+   cd project-name
+   ```
 3. Install dependencies:
-composer install
-npm install
-
-4. Configure the .env file with your database credentials.
-
+   ```bash
+   composer install
+   npm install
+   ```
+4. Configure the `.env` file with your database credentials.
 5. Run database migrations:
-php artisan migrate
-
+   ```bash
+   php artisan migrate
+   ```
 6. Serve the application:
-php artisan serve
+   ```bash
+   php artisan serve
+   ```
+
+---
 
 ## Contact 📬
-<div align="left"> <a href="mailto:youremail@gmail.com" target="_blank"> <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo" /> </a> <a href="https://www.linkedin.com/in/mohamed-waleed-sharshar/" target="_blank"> <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo" /> </a> </div> ```
+<div align="left">
+  <a href="mailto:youremail@gmail.com" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
+  </a>
+  <a href="https://www.linkedin.com/in/mohamed-waleed-sharshar/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+  </a>
+</div>
