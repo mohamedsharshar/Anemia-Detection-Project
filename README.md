@@ -1,4 +1,4 @@
-<table style=" border:0; border-collapse:collapse;">
+<table style="width:100%; border:0; border-collapse:collapse;">
   <tr>
     <td style="text-align:left; vertical-align:middle;">
       <h2>Hi 👋! My name is Mohamed Sharshar<br> and I'm a FullStack Developer</h2>
