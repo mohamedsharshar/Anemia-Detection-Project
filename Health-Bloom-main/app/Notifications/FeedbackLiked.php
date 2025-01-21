@@ -1,0 +1,74 @@
+<?php
+
+namespace App\Notifications;
+
+use Illuminate\Bus\Queueable;
+use App\Models\Feedback;
+use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Notifications\Messages\MailMessage;
+use Illuminate\Notifications\Notification;
+use Illuminate\Notifications\Messages\BroadcastMessage;
+
+class FeedbackLiked extends Notification
+{
+    use Queueable;
+    public $feedback;
+
+    /**
+     * Create a new notification instance.
+     *
+     * @return void
+     */
+    public function __construct(Feedback $feedback)
+    {
+        $this->feedback = $feedback;
+    }
+
+    /**
+     * Get the notification's delivery channels.
+     *
+     * @param  mixed  $notifiable
+     * @return array
+     */
+    public function via($notifiable)
+    {
+        return ['database', 'broadcast'];
+    }
+
+    /**
+     * Get the mail representation of the notification.
+     *
+     * @param  mixed  $notifiable
+     * @return \Illuminate\Notifications\Messages\MailMessage
+     */
+    public function toMail($notifiable)
+    {
+        return (new MailMessage)
+                    ->subject('bienvenur')
+                    ->line('The introduction to the notification.')
+                    ->action('Notification Action', url('/'))
+                    ->line('Thank you for using our application!');
+    }
+
+   /**
+ * Get the array representation of the notification.
+ *
+ * @param  mixed  $notifiable
+ * @return array
+ */
+public function toArray($notifiable)
+{
+    return [
+        'feedback_id'=>$this->feedback->id, 
+    ];
+}
+
+
+public function toBroadcast($notifiable)
+{
+    return new BroadcastMessage([
+        'feedback_id'=>$this->feedback->id, 
+    ]);
+
+}
+}
